@@ -329,33 +329,41 @@ Como diretor administrativo-financeiro, quero visualizar métricas de performanc
 ## Epic 5: Gestão Comercial (Diretor de Vendas)
 
 **Descrição:**  
-Como diretor de vendas, quero cadastrar oportunidades, acompanhar clientes em potencial e registrar contratos fechados.
+CComo diretor de vendas, quero cadastrar, visualizar, atualizar e excluir informações comerciais para gerenciar o funil de vendas e fechar contratos com mais eficiência.
 
 ### User Stories:
 
-**US 5.1 - Cadastro de Leads e Oportunidades**  
-- Como diretor, quero cadastrar novos leads e oportunidades de vendas.
+**US 5.1 - Cadastro de Propostas**  
+- Como diretor, quero cadastrar novos leads e oportunidades de vendas para registrar potenciais clientes e iniciar o acompanhamento comercial.
 
 **Critérios de Aceite:**
-- Formulário de cadastro de lead com nome, contato e interesse.
+- Formulário de cadastro de lead com nome do cliente, serviço prestado, valor e status de andamento da venda.
 
 **US 5.2 - Atualização de Status de Vendas**  
 - Como diretor, quero atualizar o status das vendas em andamento.
 
 **Critérios de Aceite:**
-- Mudança de status de lead para oportunidade ou contrato fechado.
+- Mudança de status da proposta de enviada para em negociação ou aprovada.
 
 **US 5.3 - Dashboard de Vendas**  
-- Como diretor, quero visualizar a evolução das vendas no sistema.
+- Como diretor, quero visualizar a evolução das vendas no sistema, para acompanhar os resultados e analisar o funil comercial.
 
 **Critérios de Aceite:**
 - Gráficos de conversão e pipeline de vendas.
 
 **US 5.4 - Histórico de Clientes**  
-- Como diretor, quero ver o histórico de vendas para cada cliente.
+- Como diretor, quero ver o histórico de vendas para cada cliente, para entender interações passadas e tomar decisões informadas.
 
 **Critérios de Aceite:**
 - Visualização de contratos e negociações anteriores.
+
+**US 5.5 - Exclusão de Contrato**  
+- Como diretor de vendas, quero poder excluir registros de contratos, para manter o sistema limpo e evitar dados duplicados ou irrelevantes.
+
+**Critérios de Aceite:**
+- Exclusão apenas permitida para o Diretor de Vendas.
+- Contratos podem ser excluídos livremente com confirmação.
+- Ação deve gerar um log no histórico do sistema com data, autor e motivo.
 
 ---
 
