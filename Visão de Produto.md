@@ -255,23 +255,47 @@ Como diretor de gestão de pessoas, quero acessar e atualizar as informações d
 ### User Stories:
 
 **US 3.1 - Visualizar Membros**  
-- Como diretor, quero visualizar uma lista com nome e foto dos membros.
+- Como diretor, quero visualizar uma lista com nome e foto dos membros para ter uma visão geral da equipe.
 
 **Critérios de Aceite:**
 - Exibição de todos os membros cadastrados com imagem e nome.
 
 **US 3.2 - Acessar Perfil do Membro**  
-- Como diretor, quero acessar o perfil de cada membro.
+- Como diretor, quero acessar o perfil de cada membro para analisar suas informações individuais.
 
 **Critérios de Aceite:**
 - Informações disponíveis: objetivos profissionais, habilidades e forças.
 
-**US 3.3 - Atualizar Informações de Desenvolvimento**  
-- Como diretor, quero editar informações do PDI de cada membro.
+--- 
+
+**US 3.3 - Solicitar Adição de Novo Membro e Criar Informações de Desenvolvimento**  
+- Como diretor de gestão de pessoas,  quero solicitar a adição de um novo membro ao sistema e já registrar suas informações iniciais, para iniciar o acompanhamento desde o ingresso e garantir sua integração ao processo de crescimento da EJ.
+
+**Critérios de Aceite:**
+- O diretor preenche um formulário com os dados do novo membro: nome completo, e-mail institucional, cargo, data de ingresso e foto.
+- A solicitação é enviada para aprovação do Presidente ou Vice-presidente.
+- Somente após a aprovação, o membro é oficialmente adicionado ao sistema.
+- Após a aprovação, o perfil do membro deve estar visível na lista geral.
+- A solicitação negada deve apresentar justificativa e notificar o diretor solicitante.
+
+---
+
+**US 3.4 - Atualizar Informações de Desenvolvimento**  
+- Como diretor, quero editar informações do cadastro de cada membro, para refletir mudanças nas metas e progresso individual.
 
 **Critérios de Aceite:**
 - Formulário de atualização de dados.
-- Histórico de alterações salvo.
+- Histórico de alterações salvo automaticamente.
+
+---
+
+**US 3.5 - Excluir Informações de Desenvolvimento**  
+- Como diretor, quero remover registros de desenvolvimento, para eliminar dados desatualizados, duplicados ou inválidos.
+
+**Critérios de Aceite:**
+- Exclusão com confirmação prévia.
+- Apenas o Diretor de Gestão de Pessoas pode excluir.
+- Exibição de alerta sobre a perda de dados históricos.
 
 ---
 
