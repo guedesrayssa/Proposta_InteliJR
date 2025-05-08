@@ -216,14 +216,29 @@ Como diretor de relações institucionais, quero cadastrar e gerenciar parcerias
 **Critérios de Aceite:**
 - Cadastro de nome da empresa, tipo de parceria, data de início e status.
 
-**US 2.2 - Classificação de Relacionamento**  
-- Como diretor, quero classificar as parcerias como "ativas" ou "inativas".
+---
+
+**US 2.2 - Edição de Parceria**
+
+- Como diretor, quero editar os dados de uma parceria cadastrada, para manter as informações sempre atualizadas e corrigir possíveis erros.
 
 **Critérios de Aceite:**
-- Status de relacionamento editável.
-- Filtragem de parcerias por status.
+- Permitir edição de: nome da empresa, tipo de parceria, data de início, e status (ativa/inativa).
+- Somente usuários com perfil de Diretor de RI podem realizar edições.
 
-**US 2.3 - Visualizar Histórico de Ativações**  
+---
+
+**US 2.3 - Exclusão de Parceria**
+- Como diretor, quero excluir uma parceria do sistema, para remover registros que foram inseridos incorretamente ou que não são mais relevantes.
+
+**Critérios de Aceite:**
+- Exclusão apenas disponível para usuários com permissão de Diretor.
+- Exigir confirmação antes da exclusão.
+- Parceria excluída não deve estar vinculada a ativações registradas (ou exigir exclusão prévia dessas ativações).
+
+---
+
+**US 2.4 - Visualizar Histórico de Ativações**  
 - Como diretor, quero ver o histórico de ativações realizadas com cada parceiro.
 
 **Critérios de Aceite:**
